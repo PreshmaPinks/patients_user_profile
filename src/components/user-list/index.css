@@ -1,0 +1,80 @@
+.patient-header {
+  background-color: rgb(49, 48, 48);
+  padding: 5px 10px;
+  color: #fff;
+  margin: 0;
+  width: 100%;
+}
+
+.patient-filters {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 5px;
+}
+
+.patient-search-option input {
+  margin: 0 10px;
+  border: 1px solid #9055ff;
+  padding: 5px;
+  font-size: 16px;
+}
+.patient-filter-option select,
+button {
+  margin: 0 10px;
+  border: 1px solid #9055ff;
+  padding: 5px;
+  font-size: 16px;
+}
+.patient-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.patient-table tr {
+  cursor: pointer;
+}
+
+.patient-table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.patient-table th,
+td {
+  border: 1px solid #c0c0c0;
+  padding: 7px;
+  text-align: center;
+}
+
+.patient-table tr:nth-child(even) {
+  background-color: #eaeaea;
+}
+
+.patient-table tr:hover {
+  background-color: #d3d2d2;
+}
+
+button:hover {
+  border: 1px solid #9055ff;
+  background-color: #9055ff;
+  color: #fff;
+}
+
+button {
+  border: 1px solid #9055ff;
+  color: #9055ff;
+  background-color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+}
