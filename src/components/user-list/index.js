@@ -50,7 +50,7 @@ const UserList = () => {
 
   useEffect(() => {
     handleSearch();
-  }, [searchedValue, selectedGender, selectedAge]);
+  }, [searchedValue, selectedGender, selectedAge, handleSearch]);
 
   const handleAlphabetSort = () => {
     const sortedData = sortByAlphabet(patientData);
